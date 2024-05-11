@@ -5,6 +5,7 @@ import Header from './components/Header'
 import Hero from "./components/Hero";
 import Filler from "./components/Filler";
 import Testimonies from "./components/Testimonies";
+import Facts from "./components/Facts";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,11 +13,12 @@ function App() {
   return (
     <>
       <Header />
-      {/* <div className="container mx-auto">
+      <div className="container mx-auto">
         <Hero />
         <Filler />
         <Testimonies />
-      </div> */}
+        <Facts />
+      </div>
     </>
   );
 }
