@@ -17,10 +17,7 @@ function App() {
         <Hero />
         <Filler />
         <Testimonies />
-<<<<<<< HEAD
         <Facts />
-=======
->>>>>>> 3fc3093baf6e6749317caeeeec519b239d63d83d
       </div>
     </>
   );
