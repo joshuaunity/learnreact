@@ -11,7 +11,9 @@ export default {
         eggcream: '#ffebc3', // circle in hero section
         darkcream: '#9D6B09', // for on hvoer effect for link
         btncream: '#FFA800', // for button background color
-        quotegrey: '#E1DCD1' // for
+        quotegrey: '#E1DCD1', // for testimonies section
+        snackfacts: '#E89058', // for facts section
+        factpill: '#F9CCAF' // for facts section
       },
       padding: {
         '68': '360px',
