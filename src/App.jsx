@@ -1,10 +1,11 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from 'react';
+import './App.css';
 
-import Header from './components/Header'
+import Header from './components/Header';
 import Hero from "./components/Hero";
 import Filler from "./components/Filler";
 import Testimonies from "./components/Testimonies";
+import Facts from "./components/Facts";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
         <Filler />
         <Testimonies />
       </div>
+      <Facts />
     </>
   );
 }

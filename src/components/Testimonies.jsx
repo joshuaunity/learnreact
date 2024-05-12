@@ -1,7 +1,7 @@
 const Testimonies = () => {
   return (
     <div className="mt-96 mb-24">
-      <div className="grid grid-cols-4 gap-6">
+      <div className="grid grid-cols-4 gap-x-20">
         {/* start */}
         <div className="relative">
           <span className="absolute -top-5 -left-7 text-8xl text-quotegrey">
@@ -10,8 +10,7 @@ const Testimonies = () => {
           <p>
             I've never seen a cat food like this before. The nutritional balance
             is exceptional, and I've noticed remarkable improvements in the coat
-            and energy levels of the cats I've recommended it to. It's a
-            game-changer in feline nutrition.
+            and energy levels of the cats I've recommended it to. A game-changer!
           </p>
           <div className="flex pt-4">
             <img
