@@ -14,8 +14,8 @@ const Header = () => {
           <div>
             <img className="w-20" src="./friskay.png" alt="" />
           </div>
-          <div className="pl-10 pt-1">|</div>
-          <div className="pl-4 pt-1 font-medium text-lg ">Home</div>
+          <div className="pl-9 md:pl-10 pt-1">|</div>
+          <div className="font-medium text-lg md:pl-4 pt-1">Home</div>
         </div>
         <nav className="hidden md:block">
           <ul className="flex space-x-10">
