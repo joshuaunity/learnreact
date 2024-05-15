@@ -21,10 +21,10 @@ function App() {
         <Testimonies />
       </div>
       <Facts />
-      {/* <div className="container mx-auto">
+      <div className="container mx-auto">
         <BottomHero />
-      </div> */}
-      {/* <Footer /> */}
+      </div>
+      <Footer />
     </>
   );
 }
