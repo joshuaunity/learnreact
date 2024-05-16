@@ -1,40 +1,4 @@
-import firebase from "firebase/compat/app"; // Import the compatibility version of Firebase
-import "firebase/compat/auth"; // Import the compatibility version of Firebase Auth
-
-// Your Firebase configuration object
-const firebaseConfig = {
-  apiKey: "AIzaSyAw-M50p34tMqY-G2-RsUZrDxWn7NvvgKA",
-  authDomain: "minichat-75e63.firebaseapp.com",
-  databaseURL: "https://minichat-75e63.firebaseio.com",
-  projectId: "minichat-75e63",
-  storageBucket: "minichat-75e63.appspot.com",
-  messagingSenderId: "487516277408",
-  appId: "1:487516277408:web:44974b9c0a8b326666d7c5",
-};
-
-// Initialize Firebase
-if (!firebase.apps.length) {
-  firebase.initializeApp(firebaseConfig);
-} else {
-  firebase.app(); // if already initialized, use that one
-}
-
 const Hero = () => {
-  const handleGoogleSignIn = () => {
-    const provider = new firebase.auth.GoogleAuthProvider();
-    firebase
-      .auth()
-      .signInWithPopup(provider)
-      .then((result) => {
-        // Handle successful sign-in
-        const user = result.user;
-        console.log("User signed in:", user);
-      })
-      .catch((error) => {
-        // Handle errors
-        console.error("Google sign-in error:", error);
-      });
-  };
 
   return (
     <div className="mt-10 lg:mt-28 px-4">
@@ -74,7 +38,6 @@ const Hero = () => {
 
           <button
             className="text-3xl font-bold bg-btncream p-4 rounded-md hover:border-2 border-black"
-            onClick={handleGoogleSignIn}
           >
             <span className="">Get Bonkers</span>
           </button>
