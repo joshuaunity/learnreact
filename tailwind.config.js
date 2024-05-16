@@ -15,11 +15,8 @@ export default {
         snackfacts: '#E89058', // for facts section
         factpill: '#F9CCAF' // for facts section
       },
-      padding: {
-        '68': '360px',
-        '360px': '360px',
-        '400px': '400px',
-        '440px': '440px',
+      screens: {
+        '1.5xl': '1440px',
       },
     },
   },
