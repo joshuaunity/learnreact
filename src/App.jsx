@@ -22,7 +22,7 @@ function App() {
         <BottomHero />
       </div> 
       <Footer />
-    </>
+    </div>
   );
 }
 
