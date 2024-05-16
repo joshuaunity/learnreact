@@ -37,10 +37,12 @@ const Hero = () => {
   };
 
   return (
-    <div className="mt-28">
+    <div className="mt-10 lg:mt-28 px-4">
       <div className="grid lg:grid-cols-12 gap-2">
         <div className="md:col-span-5">
-          <div className="text-5xl lg:text-6xl 1.5xl:text-7xl font-bold">Your cat will go</div>
+          <div className="text-5xl lg:text-6xl 1.5xl:text-7xl font-bold">
+            Your cat will go
+          </div>
           <div className="font-bold">
             <span className="-cus-rotate tracking-tighter text-5xl lg:text-6xl 1.5xl:text-7xl">
               B

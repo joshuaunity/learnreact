@@ -1,11 +1,11 @@
 const Facts = () => {
   return (
-    <div className="bg-snackfacts relative mt-[350px] mb-24">
-      <div className="w-full flex justify-center items-center absolute top-[-160px] sm:top-24">
-        <img className="w-1/4" src="./bowl.png" alt="" />
+    <div className="relative bg-snackfacts mb-24 mt-[250px] lg:mt-[370px]">
+      <div className="w-full flex justify-center items-center absolute -top-24 xl:-top-40">
+        <img className="w-3/4 xl:w-1/4" src="./bowl.png" alt="" />
       </div>
 
-      <div className="container mx-auto pt-48 pb-14 px-14 grid gap-y-12 gap-x-56 grid-cols-2 2xl:pt-32">
+      <div className="container mx-auto pt-40 pb-16 px-10 grid gap-y-12 gap-x-56 lg:grid-cols-2">
         <div className="col-span-1">
           <h1 className="text-lg font-extrabold bg-factpill inline-block py-0.5 px-2 rounded-md -cus-rotate">
             FACT 1

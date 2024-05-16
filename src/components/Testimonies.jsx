@@ -1,7 +1,7 @@
 const Testimonies = () => {
   return (
-    <div className="mt-96 mb-24">
-      <div className="grid grid-cols-4 gap-x-20">
+    <div className="mt-[28rem] md:mt-96 px-10 lg:px-0">
+      <div className="grid lg:grid-cols-4 gap-x-20 gap-y-16">
         {/* start */}
         <div className="relative">
           <span className="absolute -top-5 -left-7 text-8xl text-quotegrey">
