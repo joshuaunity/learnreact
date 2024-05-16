@@ -20,9 +20,9 @@ function App() {
       <Facts />
       <div className="container mx-auto">
         <BottomHero />
-      </div>
+      </div> 
       <Footer />
-    </div>
+    </>
   );
 }
 
